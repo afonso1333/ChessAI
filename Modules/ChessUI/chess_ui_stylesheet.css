@@ -1,0 +1,90 @@
+:root {
+  --square_size: 100px;
+  --black_square_color: #b58763;
+  --white_square_color: #f0dab5;
+  --white_pawn_img: url('Assets/white_pawn.png');
+  --white_rook_img: url('Assets/white_rook.png');
+  --white_knight_img: url('Assets/white_knight.png');
+  --white_bishop_img: url('Assets/white_bishop.png');
+  --white_queen_img: url('Assets/white_queen.png');
+  --white_king_img: url('Assets/white_king.png');
+  --black_pawn_img: url('Assets/black_pawn.png');
+  --black_rook_img: url('Assets/black_rook.png');
+  --black_knight_img: url('Assets/black_knight.png');
+  --black_bishop_img: url('Assets/black_bishop.png');
+  --black_queen_img: url('Assets/black_queen.png');
+  --black_king_img: url('Assets/black_king.png');
+}
+
+.chess {
+  width: calc(var(--square_size) * 8);
+  height:calc(var(--square_size) * 8);
+  margin:  100px auto;
+}
+
+.chess-row{
+  display: flex;
+}
+
+.chess-col {
+  width: var(--square_size);
+  height: var(--square_size);
+  background-size: cover;
+}
+
+.black-square{
+  background-color: var(--black_square_color);
+}
+
+.white-square{
+  background-color: var(--white_square_color);
+}
+
+.white-pawn{
+  background-image: var(--white_pawn_img);
+}
+
+.white-rook{
+  background-image: var(--white_rook_img);
+}
+
+.white-knight{
+  background-image: var(--white_knight_img);
+}
+
+.white-bishop{
+  background-image: var(--white_bishop_img);
+}
+
+.white-queen{
+  background-image: var(--white_queen_img);
+}
+
+.white-king{
+  background-image: var(--white_king_img);
+}
+
+.black-pawn{
+  background-image: var(--black_pawn_img);
+}
+
+.black-rook{
+  background-image: var(--black_rook_img);
+}
+
+.black-knight{
+  background-image: var(--black_knight_img);
+}
+
+.black-bishop{
+  background-image: var(--black_bishop_img);
+}
+
+.black-queen{
+  background-image: var(--black_queen_img);
+}
+
+.black-king{
+  background-image: var(--black_king_img);
+}
+
